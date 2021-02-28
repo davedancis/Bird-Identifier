@@ -36,7 +36,7 @@ except:
 # In[40]:
 
 
-subscription_key = os.environ.get('AZURE_SEARCH_KEY', '226866064dd7492994106f599e63c3c5')
+subscription_key = os.environ.get('AZURE_SEARCH_KEY', 'XXXX') #enter API key here
 search_url = "https://api.bing.microsoft.com/v7.0/images/search"
 headers = {"Ocp-Apim-Subscription-Key" : subscription_key}
 
@@ -95,7 +95,7 @@ img.to_thumb(224,224)
 # In[46]:
 
 
-vehicle_types = 'bald eagle','osprey','red tailed hawk'
+bird_types = 'bald eagle','osprey','red tailed hawk'
 path = Path('birds_of_prey')
 
 
